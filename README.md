@@ -11,11 +11,4 @@ Group:
   - Enrolment: 20210053533
   - E-mail: mvinnicius22@hotmail.com
 
-## Dataset
-The dataset used in this work originates from 3 other datasets:
-
-- [Flights in Brazil by ANAC](https://github.com/alvarofpp/dataset-flights-brazil).
-- [List of public aerodromes by ANAC](https://www.anac.gov.br/acesso-a-informacao/dados-abertos/areas-de-atuacao/aerodromos/lista-de-aerodromos-publicos-v2).
-- [Airport Codes by DataHub.io](https://datahub.io/core/airport-codes) (note: we notice that the latitude and longitude columns have their values swapped).
-
-After merging the datasets, we use [geocoder](https://github.com/DenisCarriere/geocoder) package to fill in the empty values. You can find the final CSV in [`data/airports.csv`](data/airports.csv).
+You can find the dataset used in this work in [`alvarofpp/dataset-flights-brazil`](https://github.com/alvarofpp/dataset-flights-brazil).
